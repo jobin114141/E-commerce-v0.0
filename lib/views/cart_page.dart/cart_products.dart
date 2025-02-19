@@ -122,13 +122,13 @@ class _CartProductsState extends State<CartProducts> {
                                   Text(
                                     "${Item.productName}",
                                     style: TextStyle(
-                                      fontSize: 25,
+                                      fontSize: 20,
                                     ),
                                   ),
                                   Text(
                                     "Black - UK IIS",
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.w500),
                                   ),
                                   Text(

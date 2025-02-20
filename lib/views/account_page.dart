@@ -16,7 +16,7 @@ class _AccountPageState extends State<AccountPage> {
   Widget build(BuildContext context) {
     double scrrenHeight = MediaQuery.of(context).size.height;
     double scrrenWidth = MediaQuery.of(context).size.width;
-    return Scaffold(
+    return Scaffold(backgroundColor: primaryColorComboSecond,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

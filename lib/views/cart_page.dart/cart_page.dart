@@ -53,7 +53,7 @@ class _CartPageState extends State<CartPage> {
     double scrrenHeight = MediaQuery.of(context).size.height;
     double scrrenWidth = MediaQuery.of(context).size.width;
     return SafeArea(
-      child: Scaffold(
+      child: Scaffold(backgroundColor: primaryColorComboSecond,
         resizeToAvoidBottomInset: true, // Prevents keyboard overflow issues
         body: SingleChildScrollView(
           child: Column(
@@ -84,7 +84,10 @@ Widget promoCode() {
                   style: ButtonStyle(
                       backgroundColor: WidgetStatePropertyAll(primaryColor)),
                   onPressed: () {},
-                  child: Text("Apply",style: TextStyle(color: primaryColorComboSecond),))),
+                  child: Text(
+                    "Apply",
+                    style: TextStyle(color: primaryColorComboSecond),
+                  ))),
         ),
         hintText: "Promo Code",
         border: OutlineInputBorder(

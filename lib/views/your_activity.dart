@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tanzero/views/common_widgets/gradent_color_background.dart';
-import 'package:tanzero/views/homeScreen/home_screen_widgets/catagories_widget.dart';
-import 'package:tanzero/views/homeScreen/home_screen_widgets/drower_namaste_widget.dart';
-import 'package:tanzero/views/homeScreen/home_screen_widgets/featured_widget.dart';
-import 'package:tanzero/views/homeScreen/home_screen_widgets/search_widget.dart';
 import 'package:tanzero/views/parallelAxixsection.dart';
 import 'package:tanzero/views/sample_paralleaxix_left.dart';
 import 'package:tanzero/views/sample_paralleaxix_right.dart';
@@ -50,9 +45,9 @@ class _YourActivityState extends State<YourActivity> {
                   padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.07),
                   child: Column(
                     children: [
-                      DrowerNamasteWidget(),
+                    
                       SizedBox(height: 18),
-                      SearchWidget(),
+   
                       SizedBox(height: 18),
                     ],
                   ),
@@ -70,9 +65,9 @@ class _YourActivityState extends State<YourActivity> {
                   height: 200,
                   child: SampleParalleaxixRight(scrollOffset: scrollOffset),
                 ),
-                FeaturedWidget(),
-                DrowerNamasteWidget(),
-                SearchWidget(),
+              
+                
+
               ],
             ),
           ),
